@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+int add(int *ptr)
+{
+  int i,total=0;
+  for(i=0;i<n;i++)
+  {
+    total+= *(ptr+i);
+  }
+  return(total);
+}
+
+void main()
+{
+  int n,i,a[100];
+  int sum;
+  printf("enter the number of array elements\n");
+  scanf("%d",&n);
+  printf("enter the array elements\n");
+  for(i=0;i<n;i++)
+    scanf("%d",&a[i]);
+  int add(int *ptr);
+  sum= add(a);
+  printf("sum of all array elements is:%d",sum);
+}
+  
+  
