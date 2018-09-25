@@ -1,23 +1,21 @@
 #include<stdio.h>
 #include<conio.h>
 
-float area(float b;float h;)
+float area(float b,float h)
 {
-  float ans;
-  ans=1/2*b*h;
-  return(ans);
+  return 1/2*b*h;
 }
 
 void main()
 {
-  float base,height,area;
+  float base,height,ans;
   clrscr();
   printf("Enter the value of base\n");
   scanf("%f",&base);
   printf("Enter the value of height\n");
   scanf("%f",&height);
-  area=area(base,height);
-  printf("The area of the triangle is:%f",area);
+  ans=area(base,height);
+  printf("The area of the triangle is:%f",ans);
   getch();
 )
   
