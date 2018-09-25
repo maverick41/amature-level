@@ -6,7 +6,7 @@ float area(float b,float h)
   return 1/2*b*h;
 }
 
-void main()
+main()
 {
   float base,height,ans;
   clrscr();
@@ -17,5 +17,6 @@ void main()
   ans=area(base,height);
   printf("The area of the triangle is:%f",ans);
   getch();
+  return(0);
 )
   
