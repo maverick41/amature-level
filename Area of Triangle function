@@ -3,7 +3,7 @@
 
 float area(float b,float h)
 {
-  return 1/2*b*h;
+  return 0.5*b*h;
 }
 
 main()
