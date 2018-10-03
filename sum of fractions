@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+void main()
+{
+ int a,n[],d[],i,sum=0;  
+ printf("enter the no. of fractions:");
+ scanf("%d",&a);
+ printf("\n enter the fractions");
+ for(i=0;i<a;i++)
+  scanf("%d%d",&n[i],&d[i]);
